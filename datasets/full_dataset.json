@@ -1,0 +1,12 @@
+{
+    "train_path": "full_SPATIAL/", 
+    "val_path": "full_SPATIAL/",
+
+    "train_objs":["can small", "bowl02", "SpikeBall", "plate02_flat", "Apple", "AtomBall", "cardboardBox_02", 
+        "cardboardBox_01", "book_0001b", "meat can box", "book_0001a", "spam can", "Vase_Hydria", "Bottle1", 
+        "Cola Can", "mug02", "EyeBall", "Soccer Ball", "Vase_Amphora", "bowl01", "Ladle", "WheelBall"],
+
+    "val_objs": ["cardboardBox_03", "Vase_VoluteKrater", "BombBall", "wine bottle 04", "SplitMetalBall", 
+        "coin", "plate02", "book_0001c", "mug03", "Old_USSR_Lamp_01", "lamp", "BuckyBall", "Pen black", 
+        "bowl03", "can", "Bottle2", "Gas Bottle"]
+}

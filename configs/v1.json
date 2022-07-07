@@ -1,0 +1,31 @@
+{
+    "modelname": "spatial_v1", 
+    "steps": 400, 
+    "batch_size": 64,
+    "continuous": true, 
+    "is_sweep": false,
+    "is_dummy": false, 
+    "coords_only": false,
+    "gnoise": false, 
+    "rotnoise": false, 
+    "src_stop_point": -1, 
+    "skip": 1, 
+    "mask_rate": 0.0, 
+    "hard_obj_limit": -1,
+    "dataset": "datasets/reduced.json",
+    "apply_src_pad_mask":true,
+    "pred_len": 8,
+    "include_multiview":true,
+    "force_seq":false,
+
+    "emb_dim": 100,
+    "dim_feedforward": 200,
+    "num_encoder_layers": 1,
+    "num_decoder_layers": 1,
+    "dropout": 0.1,
+    "max_seq_len": 240,
+    "num_heads":1,
+
+    "lr": 1e-4
+}
+
